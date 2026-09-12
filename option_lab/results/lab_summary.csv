@@ -1,0 +1,17 @@
+metric,value
+analytical_call_price,11.837046440824082
+monte_carlo_price,11.781406222745995
+monte_carlo_standard_error,0.05729102054479334
+analytical_delta,0.6121779290374987
+finite_difference_delta,0.6121779235726876
+gamma,0.015322593230517751
+vega_per_1pct,0.3830648307629438
+theta_per_day,-0.018530247241243365
+daily_matched_vol_mean_pnl,0.0019140991045467765
+daily_matched_vol_p05_pnl,-0.8979787994197471
+weekly_matched_vol_mean_pnl,-0.0008295999344683206
+weekly_matched_vol_p05_pnl,-1.9439106647670925
+daily_higher_realised_vol_mean_pnl,-3.9625704266921473
+daily_higher_realised_vol_p05_pnl,-7.368891581760203
+daily_jump_risk_mean_pnl,-0.07971256875458037
+daily_jump_risk_p05_pnl,-1.0913616700575122

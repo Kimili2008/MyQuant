@@ -1,0 +1,78 @@
+{"kind":"deck","id":"pr/i6i6zl","name":"Deck"}
+{"kind":"layout","layoutId":"c94bef7c-f32d-4eb5-94e2-540c35dd564d","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"e89b8ef4-747a-4a46-8da2-a6cafbaa2faf","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/ooh9x6","slide":1,"title":"Applied Materials: stock-pitch research","textShapes":7}
+{"kind":"textbox","id":"sh/ru5832xg","slide":1,"text":"Applied Materials: stock-pitch research","textPreview":"Applied Materials: stock-pitch research","textChars":39,"textLines":1,"bbox":[70,46,1010,54]}
+{"kind":"textbox","id":"sh/svepw7y1","slide":1,"text":"Watchlist | Semiconductor equipment, AI infrastructure and process complexity","textPreview":"Watchlist | Semiconductor equipment, AI infrastructure and process complexity","textChars":77,"textLines":1,"bbox":[72,104,970,28]}
+{"kind":"shape","id":"sh/dwnq5cf6","slide":1,"bbox":[70,139,1140,3]}
+{"kind":"textbox","id":"sh/ehw7yhwr","slide":1,"text":"MYQUANT  |  Oxford Quant-First portfolio","textPreview":"MYQUANT  |  Oxford Quant-First portfolio","textChars":40,"textLines":1,"bbox":[70,682,450,18]}
+{"kind":"textbox","id":"sh/zi587mxc","slide":1,"text":"1 / 6","textPreview":"1 / 6","textChars":5,"textLines":1,"bbox":[1130,682,80,18]}
+{"kind":"textbox","id":"sh/0jep0rex","slide":1,"text":"Current view: Watchlist","textPreview":"Current view: Watchlist","textChars":23,"textLines":1,"bbox":[105,205,700,55]}
+{"kind":"textbox","id":"sh/1knq9wfi","slide":1,"text":"Operating evidence is strong; a defensible Long or Short requires a current valuation, cycle-normalised earnings assumptions and a clear view of what the share price already implies.","textPreview":"Operating evidence is strong; a defensible Long or Short requires a current valuation, cycle-normalised earnings assumptions and a clear ...","textChars":182,"textLines":1,"bbox":[105,295,990,105]}
+{"kind":"shape","id":"sh/uls7mxgn","slide":1,"bbox":[105,450,820,65]}
+{"kind":"textbox","id":"sh/vm1ovix8","slide":1,"text":"Research exercise only — not investment advice","textPreview":"Research exercise only — not investment advice","textChars":46,"textLines":1,"bbox":[125,466,780,33]}
+{"kind":"notes","id":"nt/ooh9x6","slide":1,"text":"Primary sources: Applied Materials FY2025 Form 10-K; Applied Materials Q3 FY2026 results, 13 August 2026. Educational research only."}
+{"kind":"slide","id":"sl/a64p8h","slide":2,"title":"Operating evidence","textShapes":10}
+{"kind":"textbox","id":"sh/ruh8nap8","slide":2,"text":"Operating evidence","textPreview":"Operating evidence","textChars":18,"textLines":1,"bbox":[70,46,1010,54]}
+{"kind":"textbox","id":"sh/svqpgfqt","slide":2,"text":"Reported facts are separated from valuation inference","textPreview":"Reported facts are separated from valuation inference","textChars":53,"textLines":1,"bbox":[72,104,970,28]}
+{"kind":"shape","id":"sh/twzqpk7y","slide":2,"bbox":[70,139,1140,3]}
+{"kind":"textbox","id":"sh/ipo7a58b","slide":2,"text":"MYQUANT  |  Oxford Quant-First portfolio","textPreview":"MYQUANT  |  Oxford Quant-First portfolio","textChars":40,"textLines":1,"bbox":[70,682,450,18]}
+{"kind":"textbox","id":"sh/jqx8japw","slide":2,"text":"2 / 6","textPreview":"2 / 6","textChars":5,"textLines":1,"bbox":[1130,682,80,18]}
+{"kind":"shape","id":"sh/4r6pcfqh","slide":2,"bbox":[95,185,330,62]}
+{"kind":"textbox","id":"sh/5sfql072","slide":2,"text":"Q3 FY2026","textPreview":"Q3 FY2026","textChars":9,"textLines":1,"bbox":[115,201,290,30]}
+{"kind":"textbox","id":"sh/2ls7mpov","slide":2,"text":"$9.12bn revenue\n50.3% GAAP gross margin\n$3.08bn GAAP operating income\n$3.17 GAAP EPS","textPreview":"$9.12bn revenue | 50.3% GAAP gross margin | $3.08bn GAAP operating income | $3.17 GAAP EPS","textChars":84,"textLines":4,"bbox":[95,270,330,195]}
+{"kind":"shape","id":"sh/nm18vupg","slide":2,"bbox":[475,185,330,62]}
+{"kind":"textbox","id":"sh/3qxkj2h0","slide":2,"text":"FY2025","textPreview":"FY2025","textChars":6,"textLines":1,"bbox":[495,201,290,30]}
+{"kind":"textbox","id":"sh/ipo3ahgf","slide":2,"text":"$28.37bn total revenue\n$20.80bn Semiconductor Systems\n$6.39bn Applied Global Services\n$7.96bn operating cash flow","textPreview":"$28.37bn total revenue | $20.80bn Semiconductor Systems | $6.39bn Applied Global Services | $7.96bn operating cash flow","textChars":113,"textLines":4,"bbox":[475,270,330,195]}
+{"kind":"shape","id":"sh/5sz2lcfq","slide":2,"bbox":[855,185,330,62]}
+{"kind":"textbox","id":"sh/4r6lc7yl","slide":2,"text":"Capital intensity","textPreview":"Capital intensity","textChars":17,"textLines":1,"bbox":[875,201,290,30]}
+{"kind":"textbox","id":"sh/ruhknmxw","slide":2,"text":"$2.26bn FY2025 capex\nSegment mix and cash conversion must be normalised through the cycle.","textPreview":"$2.26bn FY2025 capex | Segment mix and cash conversion must be normalised through the cycle.","textChars":90,"textLines":2,"bbox":[855,270,330,195]}
+{"kind":"notes","id":"nt/a64p8h","slide":2,"text":"Sources: Applied Materials Q3 FY2026 results (13 Aug 2026); FY2025 Form 10-K filed 11 Dec 2025."}
+{"kind":"slide","id":"sl/1dunas","slide":3,"title":"Why the business can matter","textShapes":5}
+{"kind":"textbox","id":"sh/s3e54jqt","slide":3,"text":"Why the business can matter","textPreview":"Why the business can matter","textChars":27,"textLines":1,"bbox":[70,46,1010,54]}
+{"kind":"textbox","id":"sh/725obe98","slide":3,"text":"Engineering lens: process complexity creates both opportunity and execution risk","textPreview":"Engineering lens: process complexity creates both opportunity and execution risk","textChars":80,"textLines":1,"bbox":[72,104,970,28]}
+{"kind":"shape","id":"sh/6hwn298n","slide":3,"bbox":[70,139,1140,3]}
+{"kind":"textbox","id":"sh/h876hora","slide":3,"text":"MYQUANT  |  Oxford Quant-First portfolio","textPreview":"MYQUANT  |  Oxford Quant-First portfolio","textChars":40,"textLines":1,"bbox":[70,682,450,18]}
+{"kind":"textbox","id":"sh/g7e58jq5","slide":3,"text":"3 / 6","textPreview":"3 / 6","textChars":5,"textLines":1,"bbox":[1130,682,80,18]}
+{"kind":"textbox","id":"sh/f65ofe9k","slide":3,"text":"• Equipment portfolio spans patterning, transistor and interconnect fabrication, process control and advanced packaging.\n• AI-related demand can raise the importance of leading-edge logic, high-bandwidth memory and packaging; it does not remove cyclicality.\n• Applied Global Services adds spares, services and factory-automation software linked to the installed base.\n• The investment question is not ‘AI is growing’; it is whether incremental process intensity, service attach and mix are above what the market already prices.","textPreview":"• Equipment portfolio spans patterning, transistor and interconnect fabrication, process control and advanced packaging. | • AI-related d...","textChars":527,"textLines":4,"bbox":[95,185,1080,260]}
+{"kind":"notes","id":"nt/1dunas","slide":3,"text":"Source: Applied Materials FY2025 Form 10-K, business and segment descriptions. Final sentence is an analytical inference."}
+{"kind":"slide","id":"sl/863zaa","slide":4,"title":"Catalysts to test","textShapes":10}
+{"kind":"textbox","id":"sh/pk3m5gzy","slide":4,"text":"Catalysts to test","textPreview":"Catalysts to test","textChars":17,"textLines":1,"bbox":[70,46,1010,54]}
+{"kind":"textbox","id":"sh/2hsna10n","slide":4,"text":"Each catalyst needs an observable evidence trail","textPreview":"Each catalyst needs an observable evidence trail","textChars":48,"textLines":1,"bbox":[72,104,970,28]}
+{"kind":"shape","id":"sh/3i1436h8","slide":4,"bbox":[70,139,1140,3]}
+{"kind":"textbox","id":"sh/cnu5gbip","slide":4,"text":"MYQUANT  |  Oxford Quant-First portfolio","textPreview":"MYQUANT  |  Oxford Quant-First portfolio","textChars":40,"textLines":1,"bbox":[70,682,450,18]}
+{"kind":"textbox","id":"sh/do3m9gza","slide":4,"text":"4 / 6","textPreview":"4 / 6","textChars":5,"textLines":1,"bbox":[1130,682,80,18]}
+{"kind":"shape","id":"sh/qlcnel0j","slide":4,"bbox":[90,190,520,72]}
+{"kind":"textbox","id":"sh/bml476h4","slide":4,"text":"1. Advanced logic / HBM / packaging","textPreview":"1. Advanced logic / HBM / packaging","textChars":35,"textLines":1,"bbox":[110,206,480,40]}
+{"kind":"textbox","id":"sh/srql4ril","slide":4,"text":"Does spending sustain and does Applied gain in material or process-control steps?","textPreview":"Does spending sustain and does Applied gain in material or process-control steps?","textChars":81,"textLines":1,"bbox":[90,285,520,95]}
+{"kind":"shape","id":"sh/tsjmxwjq","slide":4,"bbox":[670,190,520,72]}
+{"kind":"textbox","id":"sh/x0vmh0j6","slide":4,"text":"2. Mix and services","textPreview":"2. Mix and services","textChars":19,"textLines":1,"bbox":[690,206,480,40]}
+{"kind":"textbox","id":"sh/wzmlovil","slide":4,"text":"Does higher-margin service, automation or differentiated equipment mix improve cycle-normalised economics?","textPreview":"Does higher-margin service, automation or differentiated equipment mix improve cycle-normalised economics?","textChars":106,"textLines":1,"bbox":[670,285,520,95]}
+{"kind":"shape","id":"sh/vyd4fq10","slide":4,"bbox":[90,450,1100,72]}
+{"kind":"textbox","id":"sh/ax43ml0f","slide":4,"text":"3. Market expectations","textPreview":"3. Market expectations","textChars":22,"textLines":1,"bbox":[110,466,1060,40]}
+{"kind":"textbox","id":"sh/5ofml0j2","slide":4,"text":"Back-solve the growth, margin and reinvestment assumptions implied by today’s enterprise value; compare them with a bottom-up, segment-aware model.","textPreview":"Back-solve the growth, margin and reinvestment assumptions implied by today’s enterprise value; compare them with a bottom-up, segment-aw...","textChars":147,"textLines":1,"bbox":[90,545,1100,52]}
+{"kind":"notes","id":"nt/863zaa","slide":4,"text":"Research agenda based on FY2025 Form 10-K business description and FY2026 operating update. No price target is presented."}
+{"kind":"slide","id":"sl/y6gq2h","slide":5,"title":"Disconfirming risks","textShapes":5}
+{"kind":"textbox","id":"sh/tgbqh0ji","slide":5,"text":"Disconfirming risks","textPreview":"Disconfirming risks","textChars":19,"textLines":1,"bbox":[70,46,1010,54]}
+{"kind":"textbox","id":"sh/6dk7m5k7","slide":5,"text":"The thesis should fail clearly if the evidence turns","textPreview":"The thesis should fail clearly if the evidence turns","textChars":52,"textLines":1,"bbox":[72,104,970,28]}
+{"kind":"shape","id":"sh/7et8fa1s","slide":5,"bbox":[70,139,1140,3]}
+{"kind":"textbox","id":"sh/kb2pkv21","slide":5,"text":"MYQUANT  |  Oxford Quant-First portfolio","textPreview":"MYQUANT  |  Oxford Quant-First portfolio","textChars":40,"textLines":1,"bbox":[70,682,450,18]}
+{"kind":"textbox","id":"sh/lcbqd0jm","slide":5,"text":"5 / 6","textPreview":"5 / 6","textChars":5,"textLines":1,"bbox":[1130,682,80,18]}
+{"kind":"textbox","id":"sh/yp07ilkv","slide":5,"text":"• Foundry or memory capex cuts and weaker returns on recently built capacity.\n• Trade and export restrictions, including greater difficulty serving some customers or regions.\n• Customer concentration: the FY2025 10-K reports two customers contributing approximately 19% and 15% of net revenue.\n• Technological substitution, share loss, execution delays or lower-than-expected services resilience.\n• A valuation that already assumes a sustained step-up in growth or margins.","textPreview":"• Foundry or memory capex cuts and weaker returns on recently built capacity. | • Trade and export restrictions, including greater diffic...","textChars":473,"textLines":5,"bbox":[100,185,1080,260]}
+{"kind":"notes","id":"nt/y6gq2h","slide":5,"text":"Source: Applied Materials FY2025 Form 10-K risk factors and customer concentration disclosures. The valuation item is analytical framing."}
+{"kind":"slide","id":"sl/r8z349","slide":6,"title":"Valuation framework before a rating","textShapes":10}
+{"kind":"textbox","id":"sh/83e18rq9","slide":6,"text":"Valuation framework before a rating","textPreview":"Valuation framework before a rating","textChars":35,"textLines":1,"bbox":[70,46,1010,54]}
+{"kind":"textbox","id":"sh/72l0zmpo","slide":6,"text":"Build the model; do not reverse-engineer a conclusion","textPreview":"Build the model; do not reverse-engineer a conclusion","textChars":53,"textLines":1,"bbox":[72,104,970,28]}
+{"kind":"shape","id":"sh/61cz6h83","slide":6,"bbox":[70,139,1140,3]}
+{"kind":"textbox","id":"sh/l03ixcry","slide":6,"text":"MYQUANT  |  Oxford Quant-First portfolio","textPreview":"MYQUANT  |  Oxford Quant-First portfolio","textChars":40,"textLines":1,"bbox":[70,682,450,18]}
+{"kind":"textbox","id":"sh/kzuh47qd","slide":6,"text":"6 / 6","textPreview":"6 / 6","textChars":5,"textLines":1,"bbox":[1130,682,80,18]}
+{"kind":"shape","id":"sh/jyl0vm9s","slide":6,"bbox":[95,190,340,68]}
+{"kind":"textbox","id":"sh/yxcz2h87","slide":6,"text":"DCF","textPreview":"DCF","textChars":3,"textLines":1,"bbox":[115,206,300,36]}
+{"kind":"textbox","id":"sh/xw3itcrm","slide":6,"text":"Start from FY2025 cash flow and capex, then forecast revenue, margin, tax, working capital and reinvestment by segment. Sensitise WACC and terminal growth.","textPreview":"Start from FY2025 cash flow and capex, then forecast revenue, margin, tax, working capital and reinvestment by segment. Sensitise WACC an...","textChars":155,"textLines":1,"bbox":[95,282,340,190]}
+{"kind":"shape","id":"sh/wvuh07q1","slide":6,"bbox":[470,190,340,68]}
+{"kind":"textbox","id":"sh/m9kvalcv","slide":6,"text":"Comparables","textPreview":"Comparables","textChars":11,"textLines":1,"bbox":[490,206,300,36]}
+{"kind":"textbox","id":"sh/natw3qtg","slide":6,"text":"Compare ASML, Lam Research, KLA and Tokyo Electron on growth, margin, FCF conversion and exposure—after normalising fiscal years and business mix.","textPreview":"Compare ASML, Lam Research, KLA and Tokyo Electron on growth, margin, FCF conversion and exposure—after normalising fiscal years and busi...","textChars":146,"textLines":1,"bbox":[470,282,340,190]}
+{"kind":"shape","id":"sh/ob2dcvu1","slide":6,"bbox":[845,190,340,68]}
+{"kind":"textbox","id":"sh/9cbe50bm","slide":6,"text":"Decision","textPreview":"Decision","textChars":8,"textLines":1,"bbox":[865,206,300,36]}
+{"kind":"textbox","id":"sh/el0v6lcz","slide":6,"text":"Only issue a Long or Short when market-implied assumptions differ materially from a traceable base case, with stated catalysts and risks.","textPreview":"Only issue a Long or Short when market-implied assumptions differ materially from a traceable base case, with stated catalysts and risks.","textChars":137,"textLines":1,"bbox":[845,282,340,190]}
+{"kind":"notes","id":"nt/r8z349","slide":6,"text":"Primary sources: Applied Materials FY2025 Form 10-K and Q3 FY2026 results. Comparable set is a research framework, not a valuation conclusion."}

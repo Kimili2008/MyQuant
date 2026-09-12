@@ -1,0 +1,206 @@
+{"kind":"deck","id":"pr/4eebub","name":"Deck"}
+{"kind":"layout","layoutId":"cfc52526-9d46-4f33-a731-25ff5b6c6822","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"5d99e7cf-362a-4d39-9f05-50ac8f9f062e","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/ph0h62","slide":1,"title":"ETF Momentum Research","textShapes":6}
+{"kind":"textbox","id":"sh/29kfq5kf","slide":1,"text":"ETF Momentum Research","textPreview":"ETF Momentum Research","textChars":21,"textLines":1,"bbox":[70,46,1010,54]}
+{"kind":"textbox","id":"sh/pcbel036","slide":1,"text":"A reproducible, long-only test of 12–1 ETF momentum","textPreview":"A reproducible, long-only test of 12–1 ETF momentum","textChars":51,"textLines":1,"bbox":[72,104,970,28]}
+{"kind":"shape","id":"sh/ob2xsv2l","slide":1,"bbox":[70,139,1140,3]}
+{"kind":"textbox","id":"sh/bydwnalw","slide":1,"text":"MYQUANT  |  Oxford Quant-First portfolio","textPreview":"MYQUANT  |  Oxford Quant-First portfolio","textChars":40,"textLines":1,"bbox":[70,682,450,18]}
+{"kind":"textbox","id":"sh/axkfu5kr","slide":1,"text":"1 / 8","textPreview":"1 / 8","textChars":5,"textLines":1,"bbox":[1130,682,80,18]}
+{"kind":"textbox","id":"sh/x0vepk32","slide":1,"text":"Does volatility scaling and an SPY 200-day regime filter improve the risk-adjusted performance of monthly ETF momentum after realistic transaction costs?","textPreview":"Does volatility scaling and an SPY 200-day regime filter improve the risk-adjusted performance of monthly ETF momentum after realistic tr...","textChars":153,"textLines":1,"bbox":[105,205,1050,122]}
+{"kind":"shape","id":"sh/czmxwf2h","slide":1,"bbox":[105,400,1050,84]}
+{"kind":"textbox","id":"sh/z2dwrul8","slide":1,"text":"24 liquid ETFs  |  2011–2018 research  |  2019–31 Aug 2026 out-of-sample  |  10 bps one-way costs","textPreview":"24 liquid ETFs  |  2011–2018 research  |  2019–31 Aug 2026 out-of-sample  |  10 bps one-way costs","textChars":97,"textLines":1,"bbox":[125,416,1010,52]}
+{"kind":"notes","id":"nt/ph0h62","slide":1,"text":"Source: MyQuant reproducible research code and cached Yahoo Finance adjusted-close data. Educational research, not investment advice."}
+{"kind":"slide","id":"sl/szuocx","slide":2,"title":"Research design","textShapes":11}
+{"kind":"textbox","id":"sh/of218v69","slide":2,"text":"Research design","textPreview":"Research design","textChars":15,"textLines":1,"bbox":[70,46,1010,54]}
+{"kind":"textbox","id":"sh/ne9kzqpo","slide":2,"text":"A fixed design stated before reading the out-of-sample comparison","textPreview":"A fixed design stated before reading the out-of-sample comparison","textChars":65,"textLines":1,"bbox":[72,104,970,28]}
+{"kind":"shape","id":"sh/md0j6lo3","slide":2,"bbox":[70,139,1140,3]}
+{"kind":"textbox","id":"sh/1cr2xg7y","slide":2,"text":"MYQUANT  |  Oxford Quant-First portfolio","textPreview":"MYQUANT  |  Oxford Quant-First portfolio","textChars":40,"textLines":1,"bbox":[70,682,450,18]}
+{"kind":"textbox","id":"sh/0bi14b6d","slide":2,"text":"2 / 8","textPreview":"2 / 8","textChars":5,"textLines":1,"bbox":[1130,682,80,18]}
+{"kind":"shape","id":"sh/za9kvqps","slide":2,"bbox":[80,185,330,72]}
+{"kind":"textbox","id":"sh/e90j2lo7","slide":2,"text":"Universe","textPreview":"Universe","textChars":8,"textLines":1,"bbox":[100,201,290,40]}
+{"kind":"textbox","id":"sh/l8v29k72","slide":2,"text":"24 US-listed ETFs across equities, rates, credit, commodities, FX and sectors.","textPreview":"24 US-listed ETFs across equities, rates, credit, commodities, FX and sectors.","textChars":78,"textLines":1,"bbox":[80,278,330,120]}
+{"kind":"shape","id":"sh/k7mlgf6h","slide":2,"bbox":[475,185,330,72]}
+{"kind":"textbox","id":"sh/utsja50v","slide":2,"text":"Signal","textPreview":"Signal","textChars":6,"textLines":1,"bbox":[495,201,290,40]}
+{"kind":"textbox","id":"sh/vulk3ahg","slide":2,"text":"Prior 252-to-21 trading-day return. The most recent month is excluded.","textPreview":"Prior 252-to-21 trading-day return. The most recent month is excluded.","textChars":70,"textLines":1,"bbox":[475,278,330,120]}
+{"kind":"shape","id":"sh/wvu1cfi1","slide":2,"bbox":[870,185,330,72]}
+{"kind":"textbox","id":"sh/hw325kzm","slide":2,"text":"Execution","textPreview":"Execution","textChars":9,"textLines":1,"bbox":[890,201,290,40]}
+{"kind":"textbox","id":"sh/m5sj650z","slide":2,"text":"Monthly rebalance; signal becomes active on the following trading day; 10 bps × one-way turnover.","textPreview":"Monthly rebalance; signal becomes active on the following trading day; 10 bps × one-way turnover.","textChars":97,"textLines":1,"bbox":[870,278,330,120]}
+{"kind":"textbox","id":"sh/761kzahk","slide":2,"text":"• Benchmark: equal-weight available ETFs.\n• Active variants: top-six equal weight, inverse volatility, and inverse volatility with SPY filter.\n• Filter holds cash below the SPY 200-day moving average.","textPreview":"• Benchmark: equal-weight available ETFs. | • Active variants: top-six equal weight, inverse volatility, and inverse volatility with SPY ...","textChars":200,"textLines":3,"bbox":[105,458,1070,410]}
+{"kind":"notes","id":"nt/szuocx","slide":2,"text":"Source: MyQuant momentum_research/src/strategy.py. Methodology was designed for transparent interview discussion."}
+{"kind":"slide","id":"sl/whr1ed","slide":3,"title":"Bias controls and what remains","textShapes":5}
+{"kind":"textbox","id":"sh/zyp8fydk","slide":3,"text":"Bias controls and what remains","textPreview":"Bias controls and what remains","textChars":30,"textLines":1,"bbox":[70,46,1010,54]}
+{"kind":"textbox","id":"sh/0zypo3e5","slide":3,"text":"A backtest is evidence only if its assumptions are made visible","textPreview":"A backtest is evidence only if its assumptions are made visible","textChars":63,"textLines":1,"bbox":[72,104,970,28]}
+{"kind":"shape","id":"sh/l07qh8va","slide":3,"bbox":[70,139,1140,3]}
+{"kind":"textbox","id":"sh/q9w7i9wn","slide":3,"text":"MYQUANT  |  Oxford Quant-First portfolio","textPreview":"MYQUANT  |  Oxford Quant-First portfolio","textChars":40,"textLines":1,"bbox":[70,682,450,18]}
+{"kind":"textbox","id":"sh/ra5ored8","slide":3,"text":"3 / 8","textPreview":"3 / 8","textChars":5,"textLines":1,"bbox":[1130,682,80,18]}
+{"kind":"textbox","id":"sh/cvypkjet","slide":3,"text":"• Research period and out-of-sample period are separated.\n• Weights are shifted by one trading day to avoid same-day signal execution.\n• Turnover is recorded; costs are charged only when the portfolio changes.\n• Raw prices are cached, weights and daily wealth paths are written to CSV.\n• Remaining limitations: selected ETF universe, adjusted-close vendor conventions, stylised execution, no tax, impact or capacity model.","textPreview":"• Research period and out-of-sample period are separated. | • Weights are shifted by one trading day to avoid same-day signal execution. ...","textChars":422,"textLines":5,"bbox":[95,185,1080,410]}
+{"kind":"notes","id":"nt/whr1ed","slide":3,"text":"Source: MyQuant unit tests and README. Limitations are deliberate, not hidden."}
+{"kind":"slide","id":"sl/zgpgk7","slide":4,"title":"Research-period results","textShapes":35}
+{"kind":"textbox","id":"sh/q1wv69cf","slide":4,"text":"Research-period results","textPreview":"Research-period results","textChars":23,"textLines":1,"bbox":[70,46,1010,54]}
+{"kind":"textbox","id":"sh/d4ne1ob6","slide":4,"text":"2011–2018; annualised values after 10 bps one-way transaction costs","textPreview":"2011–2018; annualised values after 10 bps one-way transaction costs","textChars":67,"textLines":1,"bbox":[72,104,970,28]}
+{"kind":"shape","id":"sh/c3ed8jul","slide":4,"bbox":[70,139,1140,3]}
+{"kind":"textbox","id":"sh/3ylcvuto","slide":4,"text":"MYQUANT  |  Oxford Quant-First portfolio","textPreview":"MYQUANT  |  Oxford Quant-First portfolio","textChars":40,"textLines":1,"bbox":[70,682,450,18]}
+{"kind":"textbox","id":"sh/2dcv2pcj","slide":4,"text":"4 / 8","textPreview":"4 / 8","textChars":5,"textLines":1,"bbox":[1130,682,80,18]}
+{"kind":"shape","id":"sh/p0nux4bu","slide":4,"bbox":[85,205,300,42]}
+{"kind":"textbox","id":"sh/4zud4zu9","slide":4,"text":"Strategy","textPreview":"Strategy","textChars":8,"textLines":1,"bbox":[95,215,280,22]}
+{"kind":"shape","id":"sh/falcruts","slide":4,"bbox":[385,205,125,42]}
+{"kind":"textbox","id":"sh/u9cvypc7","slide":4,"text":"CAGR","textPreview":"CAGR","textChars":4,"textLines":1,"bbox":[395,215,105,22]}
+{"kind":"shape","id":"sh/gj298ji5","slide":4,"bbox":[510,205,110,42]}
+{"kind":"textbox","id":"sh/hkba1ozq","slide":4,"text":"Vol","textPreview":"Vol","textChars":3,"textLines":1,"bbox":[520,215,90,22]}
+{"kind":"shape","id":"sh/uh0r6t0z","slide":4,"bbox":[620,205,110,42]}
+{"kind":"textbox","id":"sh/vitszyhk","slide":4,"text":"Sharpe","textPreview":"Sharpe","textChars":6,"textLines":1,"bbox":[630,215,90,22]}
+{"kind":"shape","id":"sh/8fi94ji9","slide":4,"bbox":[730,205,130,42]}
+{"kind":"textbox","id":"sh/tgrqxoju","slide":4,"text":"Max DD","textPreview":"Max DD","textChars":6,"textLines":1,"bbox":[740,215,110,22]}
+{"kind":"shape","id":"sh/6t0r2903","slide":4,"bbox":[860,205,145,42]}
+{"kind":"textbox","id":"sh/7e98ve1o","slide":4,"text":"Turnover","textPreview":"Turnover","textChars":8,"textLines":1,"bbox":[870,215,125,22]}
+{"kind":"shape","id":"sh/sbm9g3id","slide":4,"bbox":[85,247,300,42]}
+{"kind":"textbox","id":"sh/dcva98zy","slide":4,"text":"Equal weight","textPreview":"Equal weight","textChars":12,"textLines":1,"bbox":[95,257,280,20]}
+{"kind":"shape","id":"sh/1w7idonq","slide":4,"bbox":[385,247,125,42]}
+{"kind":"textbox","id":"sh/0vy14j65","slide":4,"text":"5.4%","textPreview":"5.4%","textChars":4,"textLines":1,"bbox":[395,257,105,20]}
+{"kind":"shape","id":"sh/fup0be50","slide":4,"bbox":[510,247,110,42]}
+{"kind":"textbox","id":"sh/etgz29of","slide":4,"text":"9.9%","textPreview":"9.9%","textChars":4,"textLines":1,"bbox":[520,257,90,20]}
+{"kind":"shape","id":"sh/ds7i94nu","slide":4,"bbox":[620,247,110,42]}
+{"kind":"textbox","id":"sh/sryh0z69","slide":4,"text":"0.58","textPreview":"0.58","textChars":4,"textLines":1,"bbox":[630,257,90,20]}
+{"kind":"shape","id":"sh/rq507u5o","slide":4,"bbox":[730,247,130,42]}
+{"kind":"textbox","id":"sh/qpwzypo3","slide":4,"text":"-14.8%","textPreview":"-14.8%","textChars":6,"textLines":1,"bbox":[740,257,110,20]}
+{"kind":"shape","id":"sh/5oni54ni","slide":4,"bbox":[860,247,145,42]}
+{"kind":"textbox","id":"sh/43ehwz6d","slide":4,"text":"0.1x","textPreview":"0.1x","textChars":4,"textLines":1,"bbox":[870,257,125,20]}
+{"kind":"shape","id":"sh/u9cf654v","slide":4,"bbox":[85,289,300,42]}
+{"kind":"textbox","id":"sh/vulgzqlg","slide":4,"text":"12–1 momentum","textPreview":"12–1 momentum","textChars":13,"textLines":1,"bbox":[95,299,280,20]}
+{"kind":"shape","id":"sh/gvux8vm1","slide":4,"bbox":[385,289,125,42]}
+{"kind":"textbox","id":"sh/hw3y103m","slide":4,"text":"6.2%","textPreview":"6.2%","textChars":4,"textLines":1,"bbox":[395,299,105,20]}
+{"kind":"shape","id":"sh/65sf2l4z","slide":4,"bbox":[510,289,110,42]}
+{"kind":"textbox","id":"sh/761wvqlk","slide":4,"text":"11.5%","textPreview":"11.5%","textChars":5,"textLines":1,"bbox":[520,299,90,20]}
+{"kind":"shape","id":"sh/87ux4vm5","slide":4,"bbox":[620,289,110,42]}
+{"kind":"textbox","id":"sh/t83yx03a","slide":4,"text":"0.58","textPreview":"0.58","textChars":4,"textLines":1,"bbox":[630,299,90,20]}
+{"kind":"shape","id":"sh/y1sfy14n","slide":4,"bbox":[730,289,130,42]}
+{"kind":"textbox","id":"sh/j21wr6l8","slide":4,"text":"-23.8%","textPreview":"-23.8%","textChars":6,"textLines":1,"bbox":[740,299,110,20]}
+{"kind":"shape","id":"sh/bulc3mp4","slide":4,"bbox":[860,289,145,42]}
+{"kind":"textbox","id":"sh/qtcbah8j","slide":4,"text":"4.6x","textPreview":"4.6x","textChars":4,"textLines":1,"bbox":[870,299,125,20]}
+{"kind":"shape","id":"sh/dw3u5w7a","slide":4,"bbox":[85,331,300,42]}
+{"kind":"textbox","id":"sh/cvutcrqp","slide":4,"text":"Momentum inverse vol","textPreview":"Momentum inverse vol","textChars":20,"textLines":1,"bbox":[95,341,280,20]}
+{"kind":"shape","id":"sh/3q1cz2ps","slide":4,"bbox":[385,331,125,42]}
+{"kind":"textbox","id":"sh/2psb6x8n","slide":4,"text":"6.6%","textPreview":"6.6%","textChars":4,"textLines":1,"bbox":[395,341,105,20]}
+{"kind":"shape","id":"sh/psju1c7y","slide":4,"bbox":[510,331,110,42]}
+{"kind":"textbox","id":"sh/orat87qd","slide":4,"text":"10.9%","textPreview":"10.9%","textChars":5,"textLines":1,"bbox":[520,341,90,20]}
+{"kind":"shape","id":"sh/fm1sv2pw","slide":4,"bbox":[620,331,110,42]}
+{"kind":"textbox","id":"sh/el8b2x8b","slide":4,"text":"0.64","textPreview":"0.64","textChars":4,"textLines":1,"bbox":[630,341,90,20]}
+{"kind":"shape","id":"sh/4r69c369","slide":4,"bbox":[730,331,130,42]}
+{"kind":"textbox","id":"sh/5sfq58nu","slide":4,"text":"-19.5%","textPreview":"-19.5%","textChars":6,"textLines":1,"bbox":[740,341,110,20]}
+{"kind":"shape","id":"sh/i5orato3","slide":4,"bbox":[860,331,145,42]}
+{"kind":"textbox","id":"sh/j6x83y5o","slide":4,"text":"5.7x","textPreview":"5.7x","textChars":4,"textLines":1,"bbox":[870,341,125,20]}
+{"kind":"shape","id":"sh/svq9g365","slide":4,"bbox":[85,373,300,42]}
+{"kind":"textbox","id":"sh/twzq98nq","slide":4,"text":"Momentum regime filter","textPreview":"Momentum regime filter","textChars":22,"textLines":1,"bbox":[95,383,280,20]}
+{"kind":"shape","id":"sh/6toredof","slide":4,"bbox":[385,373,125,42]}
+{"kind":"textbox","id":"sh/ruh87y5k","slide":4,"text":"7.0%","textPreview":"7.0%","textChars":4,"textLines":1,"bbox":[395,383,105,20]}
+{"kind":"shape","id":"sh/8zmp4j61","slide":4,"bbox":[510,373,110,42]}
+{"kind":"textbox","id":"sh/90vqxonm","slide":4,"text":"10.2%","textPreview":"10.2%","textChars":5,"textLines":1,"bbox":[520,383,90,20]}
+{"kind":"shape","id":"sh/pk3ylgby","slide":4,"bbox":[620,373,110,42]}
+{"kind":"textbox","id":"sh/ojuxcbut","slide":4,"text":"0.71","textPreview":"0.71","textChars":4,"textLines":1,"bbox":[630,383,90,20]}
+{"kind":"shape","id":"sh/3ilgj6d8","slide":4,"bbox":[730,373,130,42]}
+{"kind":"textbox","id":"sh/2hcfa1cn","slide":4,"text":"-18.2%","textPreview":"-18.2%","textChars":6,"textLines":1,"bbox":[740,383,110,20]}
+{"kind":"shape","id":"sh/xonypgba","slide":4,"bbox":[860,373,145,42]}
+{"kind":"textbox","id":"sh/cnexgbup","slide":4,"text":"5.5x","textPreview":"5.5x","textChars":4,"textLines":1,"bbox":[870,383,125,20]}
+{"kind":"textbox","id":"sh/bm5gnqt4","slide":4,"text":"In the research period, the regime-filtered variant had the highest reported Sharpe. This is a hypothesis for testing—not a conclusion to market.","textPreview":"In the research period, the regime-filtered variant had the highest reported Sharpe. This is a hypothesis for testing—not a conclusion to...","textChars":145,"textLines":1,"bbox":[105,465,1050,85]}
+{"kind":"notes","id":"nt/zgpgk7","slide":4,"text":"Source: momentum_research/data/results/metrics.csv, generated 12 September 2026."}
+{"kind":"slide","id":"sl/ds46ng","slide":5,"title":"Out-of-sample results","textShapes":35}
+{"kind":"textbox","id":"sh/el8fmdg3","slide":5,"text":"Out-of-sample results","textPreview":"Out-of-sample results","textChars":21,"textLines":1,"bbox":[70,46,1010,54]}
+{"kind":"textbox","id":"sh/1ojyxsfe","slide":5,"text":"2019–31 August 2026; the result changed the narrative","textPreview":"2019–31 August 2026; the result changed the narrative","textChars":53,"textLines":1,"bbox":[72,104,970,28]}
+{"kind":"shape","id":"sh/gnaxonyt","slide":5,"bbox":[70,139,1140,3]}
+{"kind":"textbox","id":"sh/ryhgrixc","slide":5,"text":"MYQUANT  |  Oxford Quant-First portfolio","textPreview":"MYQUANT  |  Oxford Quant-First portfolio","textChars":40,"textLines":1,"bbox":[70,682,450,18]}
+{"kind":"textbox","id":"sh/6x8fidgr","slide":5,"text":"5 / 8","textPreview":"5 / 8","textChars":5,"textLines":1,"bbox":[1130,682,80,18]}
+{"kind":"shape","id":"sh/t0zyt8fi","slide":5,"bbox":[85,205,300,42]}
+{"kind":"textbox","id":"sh/szqxk3yx","slide":5,"text":"Strategy","textPreview":"Strategy","textChars":8,"textLines":1,"bbox":[95,215,280,22]}
+{"kind":"shape","id":"sh/juxgnyxg","slide":5,"bbox":[385,205,125,42]}
+{"kind":"textbox","id":"sh/itofetgv","slide":5,"text":"CAGR","textPreview":"CAGR","textChars":4,"textLines":1,"bbox":[395,215,105,22]}
+{"kind":"shape","id":"sh/4ra1wr61","slide":5,"bbox":[510,205,110,42]}
+{"kind":"textbox","id":"sh/5sji5cnm","slide":5,"text":"Vol","textPreview":"Vol","textChars":3,"textLines":1,"bbox":[520,215,90,22]}
+{"kind":"shape","id":"sh/ip8juhov","slide":5,"bbox":[620,205,110,42]}
+{"kind":"textbox","id":"sh/3q103mpg","slide":5,"text":"Sharpe","textPreview":"Sharpe","textChars":6,"textLines":1,"bbox":[630,215,90,22]}
+{"kind":"shape","id":"sh/g3q1s76p","slide":5,"bbox":[730,205,130,42]}
+{"kind":"textbox","id":"sh/hozi1c7a","slide":5,"text":"Max DD","textPreview":"Max DD","textChars":6,"textLines":1,"bbox":[740,215,110,22]}
+{"kind":"shape","id":"sh/u18jqxoz","slide":5,"bbox":[860,205,145,42]}
+{"kind":"textbox","id":"sh/v2h0z2pk","slide":5,"text":"Turnover","textPreview":"Turnover","textChars":8,"textLines":1,"bbox":[870,215,125,22]}
+{"kind":"shape","id":"sh/0zu14b69","slide":5,"bbox":[85,247,300,42]}
+{"kind":"textbox","id":"sh/1k32dwnu","slide":5,"text":"Equal weight","textPreview":"Equal weight","textChars":12,"textLines":1,"bbox":[95,257,280,20]}
+{"kind":"shape","id":"sh/9gzixwfy","slide":5,"bbox":[385,247,125,42]}
+{"kind":"textbox","id":"sh/ofq1oryd","slide":5,"text":"12.9%","textPreview":"12.9%","textChars":5,"textLines":1,"bbox":[395,257,105,20]}
+{"kind":"shape","id":"sh/neh0v6xs","slide":5,"bbox":[510,247,110,42]}
+{"kind":"textbox","id":"sh/md8jm1g7","slide":5,"text":"12.8%","textPreview":"12.8%","textChars":5,"textLines":1,"bbox":[520,257,90,20]}
+{"kind":"shape","id":"sh/1czitwfm","slide":5,"bbox":[620,247,110,42]}
+{"kind":"textbox","id":"sh/0b61kry1","slide":5,"text":"1.01","textPreview":"1.01","textChars":4,"textLines":1,"bbox":[630,257,90,20]}
+{"kind":"shape","id":"sh/zax0rmxw","slide":5,"bbox":[730,247,130,42]}
+{"kind":"textbox","id":"sh/e9ojihgb","slide":5,"text":"-26.9%","textPreview":"-26.9%","textChars":6,"textLines":1,"bbox":[740,257,110,20]}
+{"kind":"shape","id":"sh/dofipcfq","slide":5,"bbox":[860,247,145,42]}
+{"kind":"textbox","id":"sh/cn6hg7y5","slide":5,"text":"0.0x","textPreview":"0.0x","textChars":4,"textLines":1,"bbox":[870,257,125,20]}
+{"kind":"shape","id":"sh/ihk7atsr","slide":5,"bbox":[85,289,300,42]}
+{"kind":"textbox","id":"sh/3ito3y9c","slide":5,"text":"12–1 momentum","textPreview":"12–1 momentum","textChars":13,"textLines":1,"bbox":[95,299,280,20]}
+{"kind":"shape","id":"sh/432pcjax","slide":5,"bbox":[385,289,125,42]}
+{"kind":"textbox","id":"sh/54b65ori","slide":5,"text":"17.6%","textPreview":"17.6%","textChars":5,"textLines":1,"bbox":[395,299,105,20]}
+{"kind":"shape","id":"sh/ud0769sf","slide":5,"bbox":[510,289,110,42]}
+{"kind":"textbox","id":"sh/ve9oze90","slide":5,"text":"17.2%","textPreview":"17.2%","textChars":5,"textLines":1,"bbox":[520,299,90,20]}
+{"kind":"shape","id":"sh/gfip8jal","slide":5,"bbox":[620,289,110,42]}
+{"kind":"textbox","id":"sh/hgb61or6","slide":5,"text":"1.03","textPreview":"1.03","textChars":4,"textLines":1,"bbox":[630,299,90,20]}
+{"kind":"shape","id":"sh/690729sj","slide":5,"bbox":[730,289,130,42]}
+{"kind":"textbox","id":"sh/7a9ove94","slide":5,"text":"-24.5%","textPreview":"-24.5%","textChars":6,"textLines":1,"bbox":[740,299,110,20]}
+{"kind":"shape","id":"sh/z2tk7ad0","slide":5,"bbox":[860,289,145,42]}
+{"kind":"textbox","id":"sh/y1k3e5wf","slide":5,"text":"5.1x","textPreview":"5.1x","textChars":4,"textLines":1,"bbox":[870,299,125,20]}
+{"kind":"shape","id":"sh/l4bm9kvq","slide":5,"bbox":[85,331,300,42]}
+{"kind":"textbox","id":"sh/032lgfe5","slide":5,"text":"Momentum inverse vol","textPreview":"Momentum inverse vol","textChars":20,"textLines":1,"bbox":[95,341,280,20]}
+{"kind":"shape","id":"sh/by9k3qdo","slide":5,"bbox":[385,331,125,42]}
+{"kind":"textbox","id":"sh/qx03a5w3","slide":5,"text":"15.5%","textPreview":"15.5%","textChars":5,"textLines":1,"bbox":[395,341,105,20]}
+{"kind":"shape","id":"sh/d0r250vu","slide":5,"bbox":[510,331,110,42]}
+{"kind":"textbox","id":"sh/czilcve9","slide":5,"text":"15.0%","textPreview":"15.0%","textChars":5,"textLines":1,"bbox":[520,341,90,20]}
+{"kind":"shape","id":"sh/3a9kzqds","slide":5,"bbox":[620,331,110,42]}
+{"kind":"textbox","id":"sh/29g36lw7","slide":5,"text":"1.04","textPreview":"1.04","textChars":4,"textLines":1,"bbox":[630,341,90,20]}
+{"kind":"shape","id":"sh/sfeh0ru5","slide":5,"bbox":[730,331,130,42]}
+{"kind":"textbox","id":"sh/tgni9wba","slide":5,"text":"-23.2%","textPreview":"-23.2%","textChars":6,"textLines":1,"bbox":[740,341,110,20]}
+{"kind":"shape","id":"sh/6dwzyhcz","slide":5,"bbox":[860,331,145,42]}
+{"kind":"textbox","id":"sh/re507mtk","slide":5,"text":"7.2x","textPreview":"7.2x","textChars":4,"textLines":1,"bbox":[870,341,125,20]}
+{"kind":"shape","id":"sh/g3y14ru1","slide":5,"bbox":[85,373,300,42]}
+{"kind":"textbox","id":"sh/147idwbm","slide":5,"text":"Momentum regime filter","textPreview":"Momentum regime filter","textChars":22,"textLines":1,"bbox":[95,383,280,20]}
+{"kind":"shape","id":"sh/e1wj21cv","slide":5,"bbox":[385,373,125,42]}
+{"kind":"textbox","id":"sh/f2p0b6tg","slide":5,"text":"8.3%","textPreview":"8.3%","textChars":4,"textLines":1,"bbox":[395,383,105,20]}
+{"kind":"shape","id":"sh/w7uhs7ux","slide":5,"bbox":[510,373,110,42]}
+{"kind":"textbox","id":"sh/h83i1cb2","slide":5,"text":"12.2%","textPreview":"12.2%","textChars":5,"textLines":1,"bbox":[520,383,90,20]}
+{"kind":"shape","id":"sh/x4vy58n6","slide":5,"bbox":[620,373,110,42]}
+{"kind":"textbox","id":"sh/w3mxw3ml","slide":5,"text":"0.71","textPreview":"0.71","textChars":4,"textLines":1,"bbox":[630,383,90,20]}
+{"kind":"shape","id":"sh/b2dg3y50","slide":5,"bbox":[730,373,130,42]}
+{"kind":"textbox","id":"sh/a14fut4f","slide":5,"text":"-17.9%","textPreview":"-17.9%","textChars":6,"textLines":1,"bbox":[740,383,110,20]}
+{"kind":"shape","id":"sh/l8fy9832","slide":5,"bbox":[860,373,145,42]}
+{"kind":"textbox","id":"sh/k76x03mh","slide":5,"text":"6.9x","textPreview":"6.9x","textChars":4,"textLines":1,"bbox":[870,383,125,20]}
+{"kind":"textbox","id":"sh/j6dg7y5c","slide":5,"text":"Inverse-volatility momentum produced the highest out-of-sample Sharpe in this fixed run. The filter reduced volatility and drawdown, but also lowered CAGR.","textPreview":"Inverse-volatility momentum produced the highest out-of-sample Sharpe in this fixed run. The filter reduced volatility and drawdown, but ...","textChars":155,"textLines":1,"bbox":[105,465,1050,85]}
+{"kind":"notes","id":"nt/ds46ng","slide":5,"text":"Source: momentum_research/data/results/metrics.csv, generated 12 September 2026."}
+{"kind":"slide","id":"sl/sjpgpq","slide":6,"title":"What the evidence supports","textShapes":8}
+{"kind":"textbox","id":"sh/z65wve9c","slide":6,"text":"What the evidence supports","textPreview":"What the evidence supports","textChars":26,"textLines":1,"bbox":[70,46,1010,54]}
+{"kind":"textbox","id":"sh/07ed4jax","slide":6,"text":"The conclusion is narrower than the question","textPreview":"The conclusion is narrower than the question","textChars":44,"textLines":1,"bbox":[72,104,970,28]}
+{"kind":"shape","id":"sh/l8nexori","slide":6,"bbox":[70,139,1140,3]}
+{"kind":"textbox","id":"sh/m9wv6t83","slide":6,"text":"MYQUANT  |  Oxford Quant-First portfolio","textPreview":"MYQUANT  |  Oxford Quant-First portfolio","textChars":40,"textLines":1,"bbox":[70,682,450,18]}
+{"kind":"textbox","id":"sh/nu5wzy98","slide":6,"text":"6 / 8","textPreview":"6 / 8","textChars":5,"textLines":1,"bbox":[1130,682,80,18]}
+{"kind":"shape","id":"sh/8ved83qt","slide":6,"bbox":[95,195,480,68]}
+{"kind":"textbox","id":"sh/9w7e18re","slide":6,"text":"Supported","textPreview":"Supported","textChars":9,"textLines":1,"bbox":[115,211,440,36]}
+{"kind":"textbox","id":"sh/axgvat8z","slide":6,"text":"• The tested inverse-volatility implementation improved out-of-sample Sharpe versus the other tested variants.\n• The regime filter traded return for lower realised risk in this sample.","textPreview":"• The tested inverse-volatility implementation improved out-of-sample Sharpe versus the other tested variants. | • The regime filter trad...","textChars":184,"textLines":2,"bbox":[95,285,480,410]}
+{"kind":"shape","id":"sh/vypw3y9k","slide":6,"bbox":[700,195,480,68]}
+{"kind":"textbox","id":"sh/r2h8fit8","slide":6,"text":"Not supported","textPreview":"Not supported","textChars":13,"textLines":1,"bbox":[720,211,440,36]}
+{"kind":"textbox","id":"sh/618r6xs3","slide":6,"text":"• A claim that the regime filter is generally superior.\n• A claim of a deployable alpha after market impact, capacity or alternative-universe tests.","textPreview":"• A claim that the regime filter is generally superior. | • A claim of a deployable alpha after market impact, capacity or alternative-un...","textChars":148,"textLines":2,"bbox":[700,285,480,410]}
+{"kind":"notes","id":"nt/sjpgpq","slide":6,"text":"Interpretation based on results and declared limitations in MyQuant report."}
+{"kind":"slide","id":"sl/18nl9y","slide":7,"title":"Next tests before stronger claims","textShapes":5}
+{"kind":"textbox","id":"sh/p47mhwju","slide":7,"text":"Next tests before stronger claims","textPreview":"Next tests before stronger claims","textChars":33,"textLines":1,"bbox":[70,46,1010,54]}
+{"kind":"textbox","id":"sh/2hg3mh03","slide":7,"text":"The research agenda matters more than pretending the first model is finished","textPreview":"The research agenda matters more than pretending the first model is finished","textChars":76,"textLines":1,"bbox":[72,104,970,28]}
+{"kind":"shape","id":"sh/32p4fm1o","slide":7,"bbox":[70,139,1140,3]}
+{"kind":"textbox","id":"sh/c7ylsbil","slide":7,"text":"MYQUANT  |  Oxford Quant-First portfolio","textPreview":"MYQUANT  |  Oxford Quant-First portfolio","textChars":40,"textLines":1,"bbox":[70,682,450,18]}
+{"kind":"textbox","id":"sh/d8rmlgjq","slide":7,"text":"7 / 8","textPreview":"7 / 8","textChars":5,"textLines":1,"bbox":[1130,682,80,18]}
+{"kind":"textbox","id":"sh/q5g3q10f","slide":7,"text":"• Vary lookback, skip-month, number of holdings and rebalance frequency without tuning on the out-of-sample window.\n• Test point-in-time or alternative ETF universes; inspect delisted / unavailable instruments where possible.\n• Add cash yield, impact and liquidity proxies; test sensitivity to cost assumptions.\n• Decompose returns by asset class, crisis periods and rate regimes.\n• Use walk-forward evaluation and record every model choice.","textPreview":"• Vary lookback, skip-month, number of holdings and rebalance frequency without tuning on the out-of-sample window. | • Test point-in-tim...","textChars":441,"textLines":5,"bbox":[100,190,1080,410]}
+{"kind":"notes","id":"nt/18nl9y","slide":7,"text":"Proposed next steps; no external factual claims."}
+{"kind":"slide","id":"sl/67qop9","slide":8,"title":"Reproducibility and interview discussion","textShapes":7}
+{"kind":"textbox","id":"sh/m1ovm5of","slide":8,"text":"Reproducibility and interview discussion","textPreview":"Reproducibility and interview discussion","textChars":40,"textLines":1,"bbox":[70,46,1010,54]}
+{"kind":"textbox","id":"sh/94fuh0n6","slide":8,"text":"A portfolio project should be inspectable, not just persuasive","textPreview":"A portfolio project should be inspectable, not just persuasive","textChars":62,"textLines":1,"bbox":[72,104,970,28]}
+{"kind":"shape","id":"sh/836dov6l","slide":8,"bbox":[70,139,1140,3]}
+{"kind":"textbox","id":"sh/zedcbq54","slide":8,"text":"MYQUANT  |  Oxford Quant-First portfolio","textPreview":"MYQUANT  |  Oxford Quant-First portfolio","textChars":40,"textLines":1,"bbox":[70,682,450,18]}
+{"kind":"textbox","id":"sh/ed4viloj","slide":8,"text":"8 / 8","textPreview":"8 / 8","textChars":5,"textLines":1,"bbox":[1130,682,80,18]}
+{"kind":"shape","id":"sh/l0fud0nu","slide":8,"bbox":[100,190,1080,75]}
+{"kind":"textbox","id":"sh/0z6dkv69","slide":8,"text":"Repository deliverables","textPreview":"Repository deliverables","textChars":23,"textLines":1,"bbox":[120,206,1040,43]}
+{"kind":"textbox","id":"sh/jahcnu58","slide":8,"text":"Cached raw data  •  source code  •  unit tests  •  weights  •  metrics  •  research report","textPreview":"Cached raw data  •  source code  •  unit tests  •  weights  •  metrics  •  research report","textChars":90,"textLines":1,"bbox":[125,289,1030,40]}
+{"kind":"textbox","id":"sh/i98vupon","slide":8,"text":"• Explain the timing convention and the five largest sources of bias.\n• Defend the choice of ETF universe and cost assumption.\n• Describe why the out-of-sample result changed the narrative.\n• State the next test that could disconfirm the idea.","textPreview":"• Explain the timing convention and the five largest sources of bias. | • Defend the choice of ETF universe and cost assumption. | • Desc...","textChars":243,"textLines":4,"bbox":[130,385,1000,410]}
+{"kind":"notes","id":"nt/67qop9","slide":8,"text":"Source: MyQuant repository. Educational research, not investment advice."}
